@@ -1,0 +1,24 @@
+<%- include('layouts/header') %>
+
+<div class="container my-4">
+    <div class="browser-container">
+        <div class="browser-tabs">
+            <ul class="nav nav-tabs flex-grow-1" id="browserTabs" role="tablist">
+                <!-- Tabs will be dynamically added here -->
+                <li class="nav-item ms-auto">
+                    <button class="btn btn-sm btn-primary" id="newTab">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="browser-content">
+            <div class="tab-content" id="browserTabContent">
+                <!-- Tab content will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('layouts/footer') %>
